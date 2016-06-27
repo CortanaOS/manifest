@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch=".." />
+
+  <default revision="refs/heads/lollipop-5.1"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="manifest" name="CortanaOS/manifest" />
+  <project path="tutorials" name="CortanaOS/tutorials" />
+  <project path="plugins" name="CortanaOS/plugins" />
+  <project path="build" name="CortanaOS/build" />
+  <project path="tools" name="CortanaOS/tools" />
+  <project path="cortana/release" name="CortanaOS/cortana-release"/>
+  <project path="flyme/overlay" name="CortanaOS/cortana-overlay" />
+  <project path="devices/base" name="CortanaOS/devices-base" />
+</manifest>
